@@ -5,6 +5,21 @@ import { ExternalLink, Hospital, Sparkles, Workflow, BarChart3 } from 'lucide-re
 const Projects = () => {
   const projects = [
     {
+      title: "Nexus AI: Enterprise RBAC Stack",
+      subtitle: "Multi-layered Security Architecture",
+      icon: <Sparkles className="w-8 h-8 text-indigo-500" />,
+      tags: ["React", "FastAPI", "PostgreSQL", "OPA", "Gemini AI", "Tailwind"],
+      description: "A production-ready Enterprise AI security stack implementing a 5-layer security architecture, including Identity management, OPA policies, and Database RLS.",
+      link: "https://rbac-frontend-o26g.onrender.com",
+      image: "/rbac-nexus.png",
+      highlights: [
+        "Implemented fine-grained access control using Open Policy Agent (OPA).",
+        "Developed a responsive admin dashboard with real-time security auditing and logging.",
+        "Integrated Gemini AI for intelligent security policy generation and natural language analysis.",
+        "Deployed as a containerized multi-service stack on Render with automated CI/CD."
+      ]
+    },
+    {
       title: "AI Agent-Based Booking Automation",
       subtitle: "Using n8n & Telegram",
       icon: <Workflow className="w-8 h-8 text-blue-500" />,

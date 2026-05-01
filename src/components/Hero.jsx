@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Link, Phone } from 'lucide-react';
+import { Mail, Linkedin, Phone } from 'lucide-react';
 
 const Hero = () => {
   const titles = [
@@ -67,7 +67,7 @@ const Hero = () => {
               Email Me
             </a>
             <a href="https://www.linkedin.com/in/aravindyara" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-slate-700 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm">
-              <Link className="w-5 h-5 text-[#0A66C2]" />
+              <Linkedin className="w-5 h-5 text-[#0A66C2]" />
               LinkedIn
             </a>
             <a href="tel:+919392204821" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-slate-700 font-medium hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm">
